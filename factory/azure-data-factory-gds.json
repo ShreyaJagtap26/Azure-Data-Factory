@@ -1,0 +1,15 @@
+{
+	"name": "azure-data-factory-gds",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "westus3",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "eff7bade-6ded-4f03-b20f-d9dcb7bfb376",
+		"tenantId": "5125a1d7-5db6-4039-bb2c-6493c2cd43f3"
+	}
+}
