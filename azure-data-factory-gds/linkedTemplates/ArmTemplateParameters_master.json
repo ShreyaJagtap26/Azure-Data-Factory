@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "azure-data-factory-gds"
+		},
+		"ADLS_Connection_accountKey": {
+			"value": ""
+		},
+		"Snowflake_connection_password": {
+			"value": ""
+		},
+		"ADLS_Connection_properties_typeProperties_url": {
+			"value": "https://gdsdeadfaccount.dfs.core.windows.net/"
+		},
+		"Snowflake_connection_properties_typeProperties_database": {
+			"value": "sales_mart"
+		},
+		"Snowflake_connection_properties_typeProperties_role": {
+			"value": "ACCOUNTADMIN"
+		},
+		"Snowflake_connection_properties_typeProperties_host": {
+			"value": "whnmtqq-ej64082.snowflakecomputing.com"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
